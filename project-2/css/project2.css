@@ -1,0 +1,101 @@
+body{
+    background: url('images/bg.png');
+    background-size:cover;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    }
+.left{
+    /* border: 2px solid red; */
+    margin: 0px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    height: 180px;
+    width: 160px;
+    box-sizing: border-box;
+}
+.left img{
+    width: 100%;
+    height: 65%;
+}
+.left .title{
+    line-height: 19px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.mid{
+    /* border: 2px solid red; */
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+    text-align: center;
+}
+.mid li{
+    display: inline-block;
+    margin: 0px 13px;
+    list-style: none;
+}
+ul.navbar{
+    margin: 0px;
+    padding: 0px;
+}
+.mid li a{
+    text-decoration: none;
+    color: white;
+}
+.mid li a:hover{
+    border: 1px solid white;
+    border-radius: 11px;
+    padding: 6px;
+}
+.right{
+    /* border: 2px solid red; */
+    margin: 4px;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    right: 10px;
+    width: 20%;
+    list-style: none;
+}
+.right li{
+    display: inline-block;
+    margin: auto 15px;
+}
+.right li a{
+    border: 1px solid white;
+    border-radius: 11px;
+    text-decoration: none;
+    padding: 2px;
+    color: white;
+}
+.container{
+    border: 1px solid white;
+    margin-top: 90px;
+    margin-left: 230px;
+    display: inline-block;
+    width: 29%;
+    border-radius: 10px;
+}
+.container .form-action{
+    margin: 5px 7px;
+    padding: 2px;
+}
+input{
+    width: 97%;
+    border-radius: 8px;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 2px;
+}
+.register-here{
+    margin-bottom: 0px;
+    text-align: center;
+}
+.btn{
+    width: 99%;
+}

@@ -1,0 +1,37 @@
+body{
+    margin: 7px;
+    padding: 3px;
+    background: url('project1-images/bg.jpg');
+    background-size: cover;
+}
+.box{
+    display: inline-block;
+}
+.box a {
+    /* font-family: 'Ubuntu', sans-serif; */
+    font: lighter;
+    border: 1px solid white;
+    color: white;
+    margin: 7px;
+    padding: 2px 20px;
+    border-radius: 10px;
+    line-height: 0px;
+    text-decoration: none;
+}
+#box5{
+    border: none;
+    position: absolute;
+    right: 5px;
+    background-image: url('project1-images/logo.jpg');
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    border-radius: 100px;
+}
+.box a:hover{
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
